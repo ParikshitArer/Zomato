@@ -15,7 +15,7 @@ spec:
         app: zomato
     spec:
       containers:
-      - name: zomato
-        image: kastrov/zomato:latest
-        ports:
-        - containerPort: 3000
+        - name: zomato
+          image: 343644157719.dkr.ecr.us-east-1.amazonaws.com/zomato-app:latest
+          ports:
+            - containerPort: 80
